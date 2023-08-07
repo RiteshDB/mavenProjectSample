@@ -1,6 +1,7 @@
 package org.example.greeting;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -11,8 +12,9 @@ public class EnglishGreetingService implements GreetingService{
     private TimeService timeService;
 
     //Dependency injection with the help of constructor.
+
     @Autowired
-    public EnglishGreetingService(TimeService timeService){
+    public EnglishGreetingService(@Qualifier("timeService12hourFormat") TimeService timeService){
         this.timeService = timeService;
     }
     public TimeService getTimeService() {
@@ -21,7 +23,7 @@ public class EnglishGreetingService implements GreetingService{
 
     //setter dependency injection.
     //@Autowired
-    public void setTimeService(TimeService timeService) {
+    public void setTimeService( TimeService timeService) {
         this.timeService = timeService;
     }
 
