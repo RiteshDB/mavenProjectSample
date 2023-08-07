@@ -7,9 +7,11 @@ public class App {
     public static void main(String[] args) {
 
         ApplicationContext context = new AnnotationConfigApplicationContext("org.example.greeting");
-        GreetingService greetingService = (GreetingService) context.getBean("englishGreetingService");
+        EnglishGreetingService greetingService = (EnglishGreetingService) context.getBean("englishGreetingService");
 
         greetingService.greet("Ritesh");
+        System.out.println("the time of this log is "+ greetingService.getTimeService().getTime());
+
 
     }
 }

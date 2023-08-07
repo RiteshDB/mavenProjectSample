@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd9bd8e-8afc-44dd-b3c1-95b246dd9dee" name="Changes" comment="Started with first service in project.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greeting/App.java" afterDir="false" />
+    <list default="true" id="6dd9bd8e-8afc-44dd-b3c1-95b246dd9dee" name="Changes" comment="First bean is created successufully">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greeting/TimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/greeting/TimeService12hourFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/greeting/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/greeting/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/greeting/EnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/greeting/EnglishGreetingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691426381364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First bean is created successufully">
+      <created>1691426846238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691426846238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started with first service in project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started with first service in project." />
+    <MESSAGE value="First bean is created successufully" />
+    <option name="LAST_COMMIT_MESSAGE" value="First bean is created successufully" />
   </component>
 </project>
